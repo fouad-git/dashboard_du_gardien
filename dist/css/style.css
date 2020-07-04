@@ -1,0 +1,107 @@
+body {
+  background-image: linear-gradient(to left, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.85)), url(../../medias/light.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  font-family: "Lato", sans-serif;
+}
+body a {
+  color: #55AA55;
+}
+
+.contain-nav nav {
+  background: linear-gradient(to left, rgba(32, 32, 32, 0.7), rgba(58, 42, 189, 0.3));
+  border-radius: 3px;
+}
+.contain-nav nav:nth-child(odd) div {
+  width: 15%;
+}
+
+.lampio table {
+  font-weight: 700;
+  border-radius: 8px;
+}
+.lampio table th {
+  background-color: rgba(255, 255, 255, 0.1);
+  padding: 1rem;
+}
+.lampio table tr {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.lampio table tr:hover {
+  color: white;
+  font-weight: bolder;
+  padding: 1rem;
+}
+.lampio table tr td {
+  padding: 1rem;
+}
+
+#container form {
+  border-radius: 4px;
+  padding: 30px;
+  background: rgba(255, 255, 255, 0.1);
+  box-shadow: 0px 0px 20px 4px #908c8cc9;
+}
+
+#container legend {
+  text-align: center;
+  color: white;
+  font-weight: 600;
+}
+#container label {
+  color: white;
+}
+#container input[type=text], #container input[type=password] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 4px;
+  background: rgba(58, 42, 189, 0.1);
+}
+#container input[type=submit] {
+  background-color: #53af57;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  border-radius: 4px;
+}
+#container input[type=submit]:hover {
+  background-color: white;
+  color: #53af57;
+  border: 1px solid #53af57;
+  border-radius: 4px;
+}
+
+@media (min-width: 320px) {
+  .contain-nav nav:nth-child(odd) div {
+    width: 40%;
+  }
+}
+@media (min-width: 576px) {
+  .contain-nav nav:nth-child(odd) div {
+    width: 40%;
+  }
+}
+@media (min-width: 768px) {
+  .contain-nav nav:nth-child(odd) div {
+    width: 25%;
+  }
+}
+@media (min-width: 992px) {
+  .contain-nav nav:nth-child(odd) div {
+    width: 15%;
+  }
+}
+@media (min-width: 1200px) {
+  .contain-nav nav:nth-child(odd) div {
+    width: 15%;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -5,7 +5,6 @@
         $pdostat = $conn->prepare($sql);
         $pdostat->bindParam(':id', $_GET['id'], PDO::PARAM_INT);
         $pdostat->execute();
-        header('Location: index.php');
+        header('Location: lister.php');
     }
-
-?>
+    ?>
